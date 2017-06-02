@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="client_ID">624868485858-ondksrkdkdpptr9qhl21m5089fiqta16.apps.googleusercontent.com</string>
+    <string name="clientSecret">gdyEZba8_EvZri2DlI015gKH</string>
+    <string name="title_activity_contact_details">ContactDetails</string>
+
+    <string name="title_text">Контакты</string>
+
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <string name="title_activity_view_contact">ViewContactActivity</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_last_name">Фамилия</string>
+    <string name="hint_number">Телефон</string>
+    <string name="hint_email">Email</string>
+    <string name="label_email">Email:</string>
+    <string name="label_number">Телефон:</string>
+    <string name="add_contact">Добавить контакт</string>
+    <string name="logout">Выход</string>
+    <string name="edit_contact">Изменить контакт</string>
+    <string name="delete_contact">Удалить контакт</string>
+    <string name="no_contacts_yet">У Вас еще нет контактов</string>
+    <string name="contacts">Контакты</string>
+    <string name="you_need_this_permission">Это разрешение необходимо для работы приложения</string>
+</resources>

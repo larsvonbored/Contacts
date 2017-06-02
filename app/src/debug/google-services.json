@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "624868485858",
+    "project_id": "contactbook-5b7ad"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624868485858:android:3846054a490a6c29",
+        "android_client_info": {
+          "package_name": "example.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624868485858-ondksrkdkdpptr9qhl21m5089fiqta16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfcP9W4o0i4eGN94YFWOTcAOSASet_GsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624868485858:android:3e13d76c79b42e32",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624868485858-gca21ics42ib0l5ofjmjohti56ie1jpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example",
+            "certificate_hash": "4133027709cd9e2157440231ccfb175addf7e988"
+          }
+        },
+        {
+          "client_id": "624868485858-ondksrkdkdpptr9qhl21m5089fiqta16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfcP9W4o0i4eGN94YFWOTcAOSASet_GsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624868485858:android:53fed96967d162d9",
+        "android_client_info": {
+          "package_name": "com.example.contactbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624868485858-fqrtkkcu7lmjb5p24dilhb7og0h3493t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.contactbook",
+            "certificate_hash": "4133027709cd9e2157440231ccfb175addf7e988"
+          }
+        },
+        {
+          "client_id": "624868485858-ondksrkdkdpptr9qhl21m5089fiqta16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfcP9W4o0i4eGN94YFWOTcAOSASet_GsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
