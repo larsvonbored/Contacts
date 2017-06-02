@@ -39,6 +39,7 @@ public class ContactDetailsActivity extends AppCompatActivity {
         email = (EditText) findViewById(R.id.email_chooser);
         number = (EditText) findViewById(R.id.number_chooser);
 
+        selectedImage = DbBitmapUtility.resourceToUri(getApplicationContext(), R.drawable.account);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Редактирование");
 
@@ -62,6 +63,9 @@ public class ContactDetailsActivity extends AppCompatActivity {
             if((bitmap = DbBitmapUtility.getImage(bundle.getByteArray("image"))) != null) {
                 avatar.setImageBitmap(bitmap);
             }*/
+            if((selectedImage = Uri.parse(bundle.getString("image"))) == null) {
+                selectedImage = DbBitmapUtility.resourceToUri(getApplicationContext(), R.drawable.account);
+            }
            avatar.setImageURI(Uri.parse(bundle.getString("image")));
             name.setText(bundle.getString("name", ""));
             lastName.setText(bundle.getString("last_name", ""));

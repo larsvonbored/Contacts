@@ -88,10 +88,9 @@ public class ViewContactActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
-            /*Bitmap bitmap;
-            if((bitmap = DbBitmapUtility.getImage(bundle.getByteArray("image"))) != null) {
-                avatar.setImageBitmap(bitmap);
-            }*/
+            if((selectedImage = Uri.parse(bundle.getString("image"))) == null) {
+                selectedImage = DbBitmapUtility.resourceToUri(getApplicationContext(), R.drawable.account);
+            }
             selectedImage = Uri.parse(bundle.getString("image"));
             avatar.setImageURI(selectedImage);
             name.setText(bundle.getString("name", ""));
