@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Контакты</string>
-    <string name="client_ID">624868485858-ondksrkdkdpptr9qhl21m5089fiqta16.apps.googleusercontent.com</string>
-    <string name="clientSecret">gdyEZba8_EvZri2DlI015gKH</string>
+    <string name="client_ID">599877649512-auaagspumdcpf07rvbiodlqgo5kf94bo.apps.googleusercontent.com</string>
+    <string name="clientSecret">zyS5JnTXpl1aYAD7b7yBVmcT</string>
     <string name="title_activity_contact_details">ContactDetails</string>
 
     <string name="title_text">Контакты</string>
